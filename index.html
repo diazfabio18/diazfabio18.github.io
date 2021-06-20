@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="FullStack Developer"
+    />
+    <link rel="apple-touch-icon" href="./assets/logo1.png" />
+    <!-- <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/logo-120x120.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/logo-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/logo-16x16.png"
+    /> -->
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/logo1.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" media="(max-width: 991px)" />
+    <script
+      src="https://kit.fontawesome.com/7b5fb2de65.js"
+      crossorigin="anonymous"
+      async
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Fabio Díaz, FullStack Developer</title>
+  </head>
+  <body>
+   
+    <!-- barra de navegacion -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__logo">
+          <p class="navbar__title">
+            <a href="#">FD</a>
+          </p>
+        </div>
+        <div class="navbar__menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="navbar__links">
+          <li class="navbar__link active" data-ref="home">
+            <a href="#home">Inicio</a>
+          </li>
+          <li class="navbar__link" data-ref="about">
+            <a href="#about">¿Quién soy?</a>
+          </li>
+          <li class="navbar__link" data-ref="services">
+            <a href="#services">Servicios</a>
+          </li>
+          <li class="navbar__link" data-ref="portfolio">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="navbar__link" data-ref="contact">
+            <a href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <!-- inicio -->
+    <section id="home" class="home">
+      <div class="home__background"></div>
+      <picture>
+        <source type="image/webp" srcset="./assets/profile.webp" />
+        <source type="image/jpeg" srcset="./assets/profile.jpg" />
+        <img class="home__profile" alt="picture profile" />
+      </picture>
+      <div class="home__description">
+        <span class="home__title--primary">Hola!</span>
+        <h1 class="home__title">Yo soy Fabio Diaz</h1>
+        <span class="home__title--secondary">Un desarrollador con inteligencia emocional</span>
+      </div>
+    </section>
+    
+    <!-- quien soy-->
+    <section id="about">
+      <div class="container">
+        <h2 class="section__title">Acerca de mí</h2>
+        <div class="about__grid">
+          <div class="about__description">
+            <h2>¿Quien soy?</h2>
+            <h2> Yo soy Fabio Diaz, FullStack Developer y estudiante de Ingeniería Electrónica</h2>
+            <p>
+              Apasionado de la tecnología y las finanzas, que mediante un espiritu resiliente ha logrado adaptarse a diferentes
+              entornos de trabajo en un tiempo record, y con objetivos de crecimiento exponencial.
+              <br><br>
+              Me diferencio en que tomo a la gestión del tiempo como elemento fundamental. Además de herramientas de gestión, utilizo las emociones para reducir el estres y los Dead Time. 
+              
+            </p>
+            <!-- <a
+              class="button--cta"
+              href="./assets/Fabio Diaz.pdf"
+              download="Fabio diaz CV"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-file-download"></i>Descargar CV
+            </a>
+            <a
+              class="button--cta"
+              href="./assets/Fabio Diaz.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-file-download"></i>Ver online
+            </a> -->
+          </div>
+          <div class="about__skills">
+            <div class="skill__title">
+              <h2>Mis skills:</h2>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-html5"></i>
+              <div class="skill__name">HTML</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-css3-alt"></i>
+              <div class="skill__name">CSS</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-js"></i>
+              <div class="skill__name">JAVASCRIPT</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-git-alt"></i>
+              <div class="skill__name">GIT</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-python"></i>
+              <div class="skill__name">PYTHON</div>
+            </div>
+            <div class="skill__item">
+              <i class="fas fa-database"></i>
+              <div class="skill__name">SQL SERVER</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!-- servicios -->
+    <section id="services">
+      <div class="container">
+        <h2 class="section__title">Servicios</h2>
+        <h3 class="section__subtitle">¿Que puedo ofrecerte?</h3>
+        <div class="services__grid">
+          <div class="services__item">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Full Responsive</h3>
+            <p>
+              Los sitios web deben ser visto en cualquier dispositivo sin importar el tamaño de pantalla para un mejor alcance, de manera que adapto sitios web mediante herramientas de Frontend.
+            </p>
+          </div>
+          <!-- <div class="services__item">
+            <i class="fas fa-pencil-ruler"></i>
+            <h3>Creative Design</h3>
+            <p>
+              A good and attractive web design helps you keep your leads on your
+              site, which is the digital face of your business.
+            </p>
+          </div> -->
+          <div class="services__item">
+            <i class="fas fa-code"></i>
+            <h3>Desarrollo backend</h3>
+            <p>
+              Una web que quiera fidelizar clientes debe tener un lugar donde
+              almacenar su valiosa información, y por esto, me especilizo en Backend.
+            </p>
+          </div>
+          <!-- <div class="services__item">
+            <i class="fas fa-thumbs-up"></i>
+            <h3>Social Media Integration</h3>
+            <p>
+              There are a lot of social platforms out there, and you should
+              promote your presence on them on your website
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-tachometer-alt"></i>
+            <h3>Performance</h3>
+            <p>
+              Retaining users is crucial to improving conversions.
+              High-performing sites engage and retain users
+            </p>
+          </div>  -->
+          <div class="services__item">
+            <i class="fas fa-crosshairs"></i>
+            <h3>SEO</h3>
+            <p>
+              Hoy en día la posición de un sitio web es fundamental para un exitoso Inbound Marketing, por esto, me dedico a aumentar el 
+              alcance de mis sitios web con Keywords y optimización del Load Time
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- proyectos -->
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="section__title">Portfolio</h2>
+        <h3 class="section__subtitle">"Las palabras dicen...las acciones demuestran!"</h3>
+        <div class="portfolio__grid">
+        
+        <div class="portfolio__item">
+           
+            <picture>
+              <source type="image/jpeg" srcset="./projects/tmotn.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">The Mystery of The Numbers</h3>
+              <p class="portfolio__description--text">
+                Social web: Vue JS v2, Rest API, MongoDB, NodeJS, Cloudinary, Heroku
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://diazfabio18.github.io/Tmotn/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/diazfabio18/Tmotn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repositorio
+                </a>
+              </div>
+            </div>
+          </div> <!--
+          
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Batatabit-first-mobile.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Batatabit</h3>
+              <p class="portfolio__description--text">Website: HTML, CSS</p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://jgestradam.github.io/Batatabit-first-mobile/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/Batatabit-first-mobile"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/CSS-Layout.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">CSS-Layout</h3>
+              <p class="portfolio__description--text">
+                Landing Page: HTML, CSS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://jgestradam.github.io/CSS-Layout/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/CSS-Layout"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          -->
+        </div>
+      </div>
+    </section>
+    
+    <!-- contacto-->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section__title">Contacto</h2>
+        <h3 class="section__subtitle">
+          Contactame si quieres que juntos construyamos un sueño.
+        </h3>
+        <div class="contact__grid">
+          
+          <a
+            href="mailto:diaz.fabio.leonel@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+
+              <i class="far fa-envelope"></i>
+              <p>Envíame un Email</p>
+            </div>
+          </a>
+          
+          <a
+            href="https://github.com/diazfabio18"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-github"></i>
+              <p>Sigueme</p>
+            </div>
+          </a>
+          <!-- <a
+            href="https://twitter.com/jgestradam"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-instagram"></i>
+              <p>Follow Me</p>
+            </div>
+          </a> -->
+          <a
+            href="https://www.linkedin.com/in/diazfabio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-linkedin-in"></i>
+              <p>Contactame</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <!--footer-->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Copyright © 2021. <a href="https://www.linkedin.com/in/diazfabio/">Fabio Leonel Díaz</a> <br />
+          All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <script async src="./index.js"></script>
+  </body>
+</html>
